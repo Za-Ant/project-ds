@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Galeria</title>
+</head>
+<body>
+  <!--Menu-->
+  <header>
+    <nav class="top-menu">
+      <div class="mobile-menu" id="mobile-menu">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+        <a class="navbar-logo navbar-logo-mobile" href="index.html"><img src="img/cplogo-PhotoRoom - Copy.png" ></a>
+        <ul class="menu-main-mobile">
+          <li class="raw_menu"><a href="index.html">Tanečná škola</a></li>
+          <li class="raw_menu"><a href="o-nas.html">O nas</a></li>
+          <li class="right-item"><a href="galeria.html">Galeria</a></li>
+          <li class="raw_menu"><a href="time_a_price.html">Rozvrh a ceny</a></li>
+          <li class="raw_menu"><a href="kontakt.html">Kontakty</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="py-5 text-center container">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="featurette-heading fw-normal lh-1">Naša galéria</h1>
+        <p class="lead text-muted">Tu je len malá časť našich fotografií z reportážnych vystúpení, vonkajších koncertov, súťažných programov a podujatí.</p>
+      </div>
+    </section>
+    <!-- Slideshow (Carousel)  -->
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="img/2.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/1.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/3.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/7.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/5.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/6.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/2dnc.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previos</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>      
+      </div>
+    </section>
+    <hr>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer">
+      <div class="textcols">
+        <div class="textcols-item">
+          <p> <b>Obsahu</b></p>
+          <p>Fotografia: <a href="https://www.pexels.com/" class="a">pexels</a></p>
+          <p>Text: <a class="a" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A2%D0%B0%D0%BD%D1%86%D1%8B_%D0%BF%D0%BE_%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83">vikipedia</a></p>
+          <p class="cope">&#169; Autorské práva</p>
+        </div>
+        <div class="textcols-item">
+          <p> <b>Spôsoby tvorby:</b></p>
+          <p>HTML, CSS, JavaScript</p>
+          <p>+Bootstrap framework</p>
+          <p class="niz">Vytvorila: <b> Antonina Zakharova</b></p>
+        </div>
+      </div>
+    </div>
+  </footer>   
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+    <script src="js/ap.js"></script>
+</body>
+
+</html>
